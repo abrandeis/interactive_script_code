@@ -1,0 +1,8 @@
+########################
+##  THIS IS REQUIRED FOR RYSNC/SCP TO WORK PROPERLY AND ANY OTHER NON-INTERACTIVE CODE OR SCRIPTS TO RUN
+##   If not running interactively, don't do anything
+case $- in
+  *i*) ;;           ##  echo "This shell is interactive";;
+    *) return;;     ##  echo "This is a script";;
+esac
+
