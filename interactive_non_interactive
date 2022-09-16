@@ -1,3 +1,6 @@
+#!/bin/bash
+
+
 ########################
 ##  THIS IS REQUIRED FOR RYSNC/SCP TO WORK PROPERLY AND ANY OTHER NON-INTERACTIVE CODE OR SCRIPTS TO RUN
 ##   If not running interactively, don't do anything
